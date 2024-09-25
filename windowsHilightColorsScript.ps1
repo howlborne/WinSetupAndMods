@@ -14,15 +14,15 @@ $hilightTextHexValue = Read-Host "Hex Color Code for HilightText (e.g. BBGGRR)"
 
 #RGB color paths in registry
 $rgbColorsPaths = "Registry::HKEY_USERS\.DEFAULT\Control Panel\Colors",
-				  "Registry::HKEY_CURRENT_USER\Control Panel\Colors",
-				  "Registry::HKEY_CURRENT_USER\Control Panel\Desktop\Colors",
-				  "Registry::HKEY_USERS\S-1-5-18\Control Panel\Colors",
-				  "Registry::HKEY_USERS\S-1-5-19\Control Panel\Colors",
-				  "Registry::HKEY_USERS\S-1-5-19\Control Panel\Desktop\Colors",
-				  "Registry::HKEY_USERS\S-1-5-20\Control Panel\Colors",
-				  "Registry::HKEY_USERS\S-1-5-20\Control Panel\Desktop\Colors",
-				  "Registry::HKEY_USERS\S-1-5-21-*\Control Panel\Colors",
-				  "Registry::HKEY_USERS\S-1-5-21-*\Control Panel\Desktop\Colors"
+		  "Registry::HKEY_CURRENT_USER\Control Panel\Colors",
+		  "Registry::HKEY_CURRENT_USER\Control Panel\Desktop\Colors",
+		  "Registry::HKEY_USERS\S-1-5-18\Control Panel\Colors",
+		  "Registry::HKEY_USERS\S-1-5-19\Control Panel\Colors",
+		  "Registry::HKEY_USERS\S-1-5-19\Control Panel\Desktop\Colors",
+		  "Registry::HKEY_USERS\S-1-5-20\Control Panel\Colors",
+		  "Registry::HKEY_USERS\S-1-5-20\Control Panel\Desktop\Colors",
+		  "Registry::HKEY_USERS\S-1-5-21-*\Control Panel\Colors",
+		  "Registry::HKEY_USERS\S-1-5-21-*\Control Panel\Desktop\Colors"
 				
 #HEX color paths in registry
 $hexColorsPaths = "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\DefaultColors\HighContrast",
